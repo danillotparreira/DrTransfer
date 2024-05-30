@@ -1,6 +1,6 @@
 package br.ufg.inf.drtransfer.model.enums;
 
-public enum ClassificacaoRota {
+public enum Modulo {
     ADMINISTRATIVO,
     RELATORIO;
 }
