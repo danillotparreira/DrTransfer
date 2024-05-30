@@ -3,6 +3,7 @@ package br.ufg.inf.drtransfer.model;
 public class Medico {
 
     private String nome;
+    private String crm;
 
     public Medico(String nome) {
         this.nome = nome;
