@@ -8,6 +8,14 @@ public class Medico {
         this.nome = nome;
     }
 
+    public String getCrm() {
+        return crm;
+    }
+
+    public void setCrm(String crm) {
+        this.crm = crm;
+    }
+
     public String getNome() {
         return nome;
     }
