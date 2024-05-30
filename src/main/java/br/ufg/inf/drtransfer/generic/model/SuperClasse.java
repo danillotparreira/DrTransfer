@@ -2,7 +2,7 @@ package br.ufg.inf.drtransfer.generic.model;
 
 import java.time.LocalDateTime;
 
-public class SuperClasse {
+public abstract class SuperClasse {
 
     private Long codigo;
     private LocalDateTime dataCadastro;
