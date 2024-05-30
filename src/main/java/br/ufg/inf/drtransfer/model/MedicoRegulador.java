@@ -9,6 +9,6 @@ package br.ufg.inf.drtransfer.model;
  * @author FM-UFG
  */
 public class MedicoRegulador {
-   
+   private String nome;
     
 }
