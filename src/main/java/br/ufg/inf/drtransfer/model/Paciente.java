@@ -5,6 +5,8 @@ import br.ufg.inf.drtransfer.generic.model.SuperClasse;
 public class Paciente extends SuperClasse {
 
     private String name;
+    private String sexo;
+
     private String cpf;
 
     public String getName() {
@@ -22,4 +24,5 @@ public class Paciente extends SuperClasse {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+
 }
