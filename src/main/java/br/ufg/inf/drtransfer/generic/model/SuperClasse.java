@@ -10,6 +10,8 @@ public abstract class SuperClasse {
     private boolean ativo = true;
 
     public SuperClasse() {
+        this.dataAtualizacao = LocalDateTime.now();
+        this.dataCadastro = LocalDateTime.now();
     }
 
     public Long getCodigo() {
@@ -42,6 +44,10 @@ public abstract class SuperClasse {
 
     public void setAtivo(boolean ativo) {
         this.ativo = ativo;
+    }
+
+    public void updateDataAtualizacao() {
+        this.dataAtualizacao = LocalDateTime.now();
     }
 
 }

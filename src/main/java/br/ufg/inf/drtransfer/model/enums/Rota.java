@@ -5,7 +5,8 @@ import static br.ufg.inf.drtransfer.model.enums.Modulo.*;
 public enum Rota {
     USUARIO("Usuário", ADMINISTRATIVO),
     PERMISSAO("Permissao", ADMINISTRATIVO),
-    GRUPO_PERMISSAO("Grupo de Permissões", ADMINISTRATIVO);
+    GRUPO_PERMISSAO("Grupo de Permissões", ADMINISTRATIVO),
+    MEDICO ()
 
     private final String descricao;
     private final Modulo modulo;
